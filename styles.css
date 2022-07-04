@@ -1,0 +1,92 @@
+
+html {
+  font-family: 'roboto', sans-serif;
+  background-color: #011c3a;
+  color: white;
+}
+
+body{
+  margin: 0;
+}
+
+header nav{
+  background-color: #001730;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgb(26, 25, 25);
+  border-style: inset;
+  padding-top: 50px;
+}
+
+
+header nav .logo{
+    width: 20%;
+}
+
+header nav .logo img{
+  border-radius: 10px;
+  border: 1px solid #008cfc;
+}
+
+header nav .logo #size_text_logo{
+  font-size: 13px;
+}
+
+header nav .logo .name_logo{
+  color: #4edafd;
+}
+
+header nav .nav_menu{
+  width: 80%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+header nav .nav_menu ul a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav .nav_menu ul a li{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+header nav .nav_menu ul a li:hover{
+  color: #008cfc;
+  transition: 600ms;
+}
+
+main {
+  display: block;
+}
+
+main section{
+  margin-bottom: 70px;
+}
+
+main section h1 { 
+  text-align: center;
+  color: #008cfc;
+}
+
+main .contact_section .contact_container{
+  display: flex;
+}
+
+main .contact_section .contact_container{
+  display: inline;
+}
+
+footer{
+  background-color: #001730;
+  border: 1px solid rgb(26, 25, 25);
+  border-style: inset;
+
+}
+
+footer .copyright_container{
+  text-align: center;
+}
